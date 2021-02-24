@@ -64,8 +64,6 @@ const FadedScrollView = (props: Props) => {
         >
           {children}
         </ScrollView>
-<!--         <Fader visible={showStart} position={Fader.position.START} size={FADER_SIZE}/>
-        <Fader visible={showEnd} position={Fader.position.END} size={FADER_SIZE}/> -->
       </>
     );
   }
